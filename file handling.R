@@ -1,0 +1,5 @@
+data.frame(x = c(1, 2, 3) , y = c(1.5, 5.5, 7.5))
+dir.create ("destination_folder")
+file.create ("new_text_file.txt") 
+file.copy ("new_text_file.txt" , "destination_folder")
+unlink ("some_.file.csv")
